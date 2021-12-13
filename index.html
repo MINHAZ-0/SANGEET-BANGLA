@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>R-TV</title>
+<link rel="shortcut icon" href="https://mhttechnologies.com/uploads/system_logo/favicon_6174184828f07.png">
+   
+    <!-- Docs styles -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/demo.css" />
+
+</head>
+      
+      <body style="background-color:black;">
+      <div class="grid">
+      <main>
+        <div id="container">
+          <video
+            controls
+            crossorigin
+            playsinline
+            data-poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKffcmNnWKnurXECjhEOBVVVU0zSWyUSNJGQ&usqp=CAU"
+            id="player">
+          
+            <!-- Video files -->
+            <source
+              src="http://103.106.2.149:13456/btv.m3u8"
+              type="video/mp4"
+              size="576"
+            />
+            <source
+              src="https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/index.m3u8"
+              type="video/mp4"
+              size="720"
+            />
+            <source
+               src="https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/index.m3u8"
+               type="video/mp4"
+              size="1080"
+            />
+
+            <!-- Caption files -->
+         
+            <track 
+            kind="captions"
+            label="Bangla"
+            srclang="bn"
+            src=""/>
+           
+            <track
+              kind="captions"
+              label="Hindi"
+              srclang="in"
+              src=""/>
+              
+            <track
+            kind="captions"
+            label="English"
+            srclang="en"
+            src=""/>
+</video></div>
+            
+          
+      
+
+
+    <script src="https://cdn.plyr.io/3.6.4/demo.js" crossorigin="anonymous"></script>
+  </body>
+</html>
